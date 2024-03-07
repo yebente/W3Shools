@@ -1,4 +1,4 @@
-#My Learning curve for daily goals
-##HTML
-##CSS
-##JAVASCRIPT
+# My Learning curve for daily goals
+##  HTML
+## CSS
+## JAVASCRIPT
