@@ -1,20 +1,33 @@
-body {
-   background-color: ghostwhite; 
+body, h5 {
+   margin: 0;
+   padding: 0;
+   border: 0;
 }
-.menu-items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   height: 50px;
+   width: 100%;
+   align-items: center;
 }
-.menu-items a{
-    text-decoration: none;
-    color: black;
+.logo-name {
+   font-family: Beach Resort;
+   letter-spacing: 0.2em;
+   font-size: 20px;
 }
-.logo {
-    font-family: Beach Resort;
-    font-weight: bold;
-    font-size: 150%;
+.logo-name a {
+   color: ghostwhite;
+   text-decoration: none;
 }
-.push {
-    margin-left: auto;
+.nav ul {
+   display: flex;
+   list-style: none;
+}
+.nav a {
+   color: ghostwhite;
+   text-decoration: none;
+}
+.nav li, .logo-name {
+   padding: 0px 10px 0px 10px; /*Top, Right, Bottom, Left*/
 }
