@@ -1,8 +1,12 @@
+/* Resetting default styles */
 body, h5 {
    margin: 0;
    padding: 0;
    border: 0;
+   font-family: Arial, sans-serif; /* Fallback font */
 }
+
+/* Header styling */
 header {
    display: flex;
    justify-content: space-between;
@@ -10,24 +14,75 @@ header {
    height: 50px;
    width: 100%;
    align-items: center;
+   padding: 0 20px; /* Adding padding for better spacing */
 }
+
+/* Logo name styling */
 .logo-name {
-   font-family: Beach Resort;
-   letter-spacing: 0.2em;
    font-size: 20px;
-}
-.logo-name a {
+   font-weight: bold; /* Making the logo name bold */
+   letter-spacing: 0.2em;
    color: ghostwhite;
    text-decoration: none;
 }
+
+.logo-name a {
+   color: inherit; /* Inheriting color from parent for better consistency */
+   text-decoration: none;
+}
+
+/* Navigation styling */
 .nav ul {
    display: flex;
    list-style: none;
+   margin: 0;
+   padding: 0;
 }
+
 .nav a {
    color: ghostwhite;
    text-decoration: none;
+   padding: 10px; /* Adding padding for better spacing */
 }
-.nav li, .logo-name {
-   padding: 0px 10px 0px 10px; /*Top, Right, Bottom, Left*/
+
+.nav li {
+   margin: 0 5px; /* Adding margin between navigation items */
+}
+/* Footer styling */
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+}
+
+/* Main section styling */
+.main-section {
+   padding: 20px;
+   margin: 20px 0;
+   background-color: #f9f9f9;
+   border: 1px solid #ddd;
+}
+
+/* Additional section styling */
+.additional-section {
+   padding: 20px;
+   margin: 20px 0;
+   background-color: #f5f5f5;
+   border: 1px solid #ccc;
+}
+
+/* Button styling */
+.button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+.button:hover {
+   background-color: #0056b3;
 }
